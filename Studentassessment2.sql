@@ -1,0 +1,10 @@
+create table Student( sid int,name varchar(50), age int, totmarks int);
+insert into Student values(1,"saamyukta",24,298),(2,"raagini",23,299),(3,"sita",22,250),(4,"shyamala",21,225),(5,"bhavani",25,295);
+select*from Student;
+select * from Student where age between 20 and 25;
+select * from Student where name like "s%";
+select * from Student where name like "__a%";
+insert into Student values(6,"sam",23,290);
+select * from Student;
+select * from Student where name like "s__";
+select * from Student where name like "%a";
