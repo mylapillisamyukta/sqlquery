@@ -1,0 +1,12 @@
+create table faculty (fid INT,fname varchar(100));
+insert into faculty values(1,"samyukta"),(2,"shyamala"),(3,"laxmi"),(4,"sita"),(5,"ragini"),(6,"suma"),(7,"divya");
+select * from faculty;
+delete from faculty where fid=7;
+update faculty set fid=8 where fname="suma";
+alter table faculty add address varchar(50);
+select * from faculty;
+truncate table faculty;
+select * from faculty;
+create table faculty (fid INT,fname varchar(100));
+insert into faculty values(1,"samyukta"),(2,"shyamala"),(3,"laxmi"),(4,"sita"),(5,"ragini"),(6,"suma"),(7,"divya");
+select * from faculty;
